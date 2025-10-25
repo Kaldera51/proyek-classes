@@ -374,7 +374,7 @@ mainLeaders: [
             hobbies: ["Game"],
             achievements: [],
             bio: "Ramah, baik hati, humoris, tidak sombong, rajin ibadah, dan juga soft spoken.",
-            image: "images/students/lana.jpg"
+            image: "images/students/lana1.jpg"
         },
         {
             id: 25,
