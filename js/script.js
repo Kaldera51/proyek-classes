@@ -574,6 +574,75 @@ document.addEventListener('DOMContentLoaded', function() {
     initializeWebsite();
 });
 
+// ===== PREVENT VIEW SOURCE CODE =====
+document.addEventListener('keydown', function(e) {
+    // Block Ctrl+U (View Source)
+    if (e.ctrlKey && e.key === 'u') {
+        e.preventDefault();
+        showBubble('error', 'Eitss!!', 'Mau ngapain kocak?!');
+        setTimeout(() => hideBubble(), 4500);
+        return false;
+    }
+    
+    // Block F12 (Developer Tools)
+    if (e.key === 'F12') {
+        e.preventDefault();
+        showBubble('error', 'F12 Mati Bro!', 'Coba Alt+F4 aja');
+        setTimeout(() => hideBubble(), 4500);
+        return false;
+    }
+    
+    // Block Ctrl+Shift+I (DevTools)
+    if (e.ctrlKey && e.shiftKey && e.key === 'I') {
+        e.preventDefault();
+        showBubble('error', 'Hehehe', 'Jangan ya dek ya!');
+        setTimeout(() => hideBubble(), 4500);
+        return false;
+    }
+    
+    // Block Ctrl+Shift+J (Console)
+    if (e.ctrlKey && e.shiftKey && e.key === 'J') {
+        e.preventDefault();
+        showBubble('error', 'Console?', 'Bukan tempat ngoding ini bro!');
+        setTimeout(() => hideBubble(), 4500);
+        return false;
+    }
+    
+    // Block Ctrl+Shift+C (Inspect Element)
+    if (e.ctrlKey && e.shiftKey && e.key === 'C') {
+        e.preventDefault();
+        showBubble('error', 'Tau Ga?', 'Inspect Element gabisa disini!');
+        setTimeout(() => hideBubble(), 4500);
+        return false;
+    }
+});
+
+// Additional protection against right-click context menu
+document.addEventListener('contextmenu', function(e) {
+    e.preventDefault();
+    showBubble('error', 'Hmm..', 'Pake klik kiri aja bang');
+    setTimeout(() => hideBubble(), 4500);
+    return false;
+});
+
+// Protection against opening DevTools via browser menu
+let devToolsOpen = false;
+setInterval(function() {
+    const widthThreshold = window.outerWidth - window.innerWidth > 160;
+    const heightThreshold = window.outerHeight - window.innerHeight > 160;
+    
+    if ((widthThreshold || heightThreshold) && !devToolsOpen) {
+        devToolsOpen = true;
+        showBubble('error', 'Lah?', 'Per-');
+        setTimeout(() => hideBubble(), 4500);
+        
+        // Optionally redirect or close the page
+        setTimeout(() => {
+            window.location.href = 'about:blank';
+        }, 500);
+    }
+}, 1000);
+
 // Initialize Website
 function initializeWebsite() {
     loadGallery();
