@@ -1370,10 +1370,10 @@ function handleFormSubmission() {
         .catch(function(error) {
             if (error.status === 0) {
                 // Network error (sinyal jelek)
-                showBubble('error', 'Koneksi Error', 'Internet lu jelek!');
+                showBubble('error', 'Koneksi Bermasalah', 'HP Elit, Internet Sulit!');
             } else if (error.status === 400) {
                 // Bad request (template/service error)  
-                showBubble('error', 'Gagal Mengirim', 'Sorry bos, lagi ada masalah.');
+                showBubble('error', 'Server Bermasalah', 'Sorry, lagi ada masalah.');
             } else {
                 // Other errors
                 showBubble('error', 'Gagal Mengirim', 'Error? Ntar coba lagi ya!');
