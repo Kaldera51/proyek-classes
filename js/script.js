@@ -2,7 +2,7 @@
 const galleryData = [
     {
         id: 1,
-        title: "Foto Bersama Bapak Ali Zainudin",
+        title: "Bapak Ali Zainudin & Siswa XI-I",
         description: "-",
         image: "images/gallery/withpazen.jpg",
         date: "05 Agustus 2025",
@@ -15,7 +15,7 @@ const galleryData = [
         title: "Galeri 2",
         description: "Galeri blm diisi.",
         image: "",
-        date: "01 Februari 2003",
+        date: "04 Mei 2006",
         location: "-",
         category: "-",
         photos: 0
@@ -25,7 +25,37 @@ const galleryData = [
         title: "Galeri 3",
         description: "Galeri blm diisi.",
         image: "",
-        date: "04 Mei 2006",
+        date: "07 Agustus 2009",
+        location: "-",
+        category: "-",
+        photos: 0
+    },
+    {
+        id: 4,
+        title: "Galeri 4",
+        description: "Galeri blm diisi.",
+        image: "",
+        date: "10 November 2012",
+        location: "-",
+        category: "-",
+        photos: 0
+    },
+    {
+        id: 5,
+        title: "Galeri 5",
+        description: "Galeri blm diisi.",
+        image: "",
+        date: "13 Februari 2015",
+        location: "-",
+        category: "-",
+        photos: 0
+    },
+    {
+        id: 6,
+        title: "Galeri 6",
+        description: "Galeri blm diisi.",
+        image: "",
+        date: "16 Mei 2018",
         location: "-",
         category: "-",
         photos: 0
@@ -95,7 +125,7 @@ mainLeaders: [
             hobbies: ["Roleplay", "Program"],
             achievements: [],
             bio: "Estrella de Java.",
-            image: "images/students/error.png"
+            image: "images/students/default.jpg"
         },
         {
             id: 4,
@@ -296,7 +326,7 @@ mainLeaders: [
             hobbies: ["Music", "Social Media"],
             achievements: [],
             bio: "Random Boy.",
-            image: "images/students/default.jpg"
+            image: "images/students/afka.jpg"
         },
         {
             id: 19,
@@ -1043,7 +1073,7 @@ function renderTeacherCard() {
                 <div class="teacher-stats">
                     <div class="stat-item">
                         <span class="stat-number">${teacherData.studentsCount}</span>
-                        <span class="stat-label">Siswa</span>
+                        <span class="stat-label">Anak Didik</span>
                     </div>
                     <div class="stat-item">
                         <span class="stat-number">${teacherData.subjectsCount}</span>
@@ -1333,7 +1363,7 @@ function handleFormSubmission() {
     const message = document.getElementById('message').value.trim();
     
     if (!name || !message) {
-        showBubble('error', 'Form Ga Lengkap', 'Isi formulir dulu bre!');
+        showBubble('error', 'Form Ga Lengkap!', 'Isi dulu tuh sebelum ngirim!');
         setTimeout(() => {
             hideBubble();
         }, 4000);
@@ -1359,7 +1389,7 @@ function handleFormSubmission() {
     emailjs.send('service_vr95sfg', 'template_0xlkc37', templateParams)
         .then(function(response) {
             hideBubble();
-            showBubble('success', 'Pesan Terkirim!', 'Mantap, pesan berhasil terkirim!');
+            showBubble('success', 'Pesan Terkirim!', 'Mantap, makasi udah ngirim pesan :D');
             form.reset();
             
             setTimeout(() => {
@@ -1370,7 +1400,7 @@ function handleFormSubmission() {
         .catch(function(error) {
             if (error.status === 0) {
                 // Network error (sinyal jelek)
-                showBubble('error', 'Koneksi Bermasalah', 'HP Elit, Internet Sulit!');
+                showBubble('error', 'Koneksi Error', 'Internet lu mati/sinyalmu jelek!');
             } else if (error.status === 400) {
                 // Bad request (template/service error)  
                 showBubble('error', 'Server Bermasalah', 'Sorry, lagi ada masalah.');
