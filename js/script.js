@@ -575,7 +575,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 // ===== PREVENT VIEW SOURCE CODE =====
-document.addEventListener('keydown', function(e) {
+/*document.addEventListener('keydown', function(e) {
     // Block Ctrl+U (View Source)
     if (e.ctrlKey && e.key === 'u') {
         e.preventDefault();
@@ -619,7 +619,7 @@ document.addEventListener('keydown', function(e) {
 
 // Additional protection against right-click context menu
 document.addEventListener('contextmenu', function(e) {
-    e.preventDefault();
+     e.preventDefault();
     showBubble('error', 'Hmm..', 'Pake klik kiri aja bang');
     setTimeout(() => hideBubble(), 4500);
     return false;
@@ -641,7 +641,7 @@ setInterval(function() {
             window.location.href = 'about:blank';
         }, 500);
     }
-}, 1000);
+}, 1000); */
 
 // Initialize Website
 function initializeWebsite() {
