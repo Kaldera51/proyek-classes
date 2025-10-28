@@ -111,7 +111,7 @@ ${student.address?`
             ${student.bio ? `<div class="info-section"><h3 class="section-title-modal"><i class="fas fa-file-alt"></i>Tentang Saya</h3><div class="bio-text">${student.bio}</div></div>` : ''}
             
             <!-- Hobi -->
-            ${student.hobbies && student.hobbies.length > 0 ? `<div class="info-section"><h3 class="section-title-modal"><i class="fas fa-heart"></i>Hobi&Minat</h3><div class="hobbies-container">${student.hobbies.map(hobby=>`
+            ${student.hobbies && student.hobbies.length > 0 ? `<div class="info-section"><h3 class="section-title-modal"><i class="fas fa-heart"></i>Hobi & Minat</h3><div class="hobbies-container">${student.hobbies.map(hobby=>`
                         <span class="hobby-tag">${hobby}</span>
                     `).join('')}</div></div>` : ''}
             
@@ -288,7 +288,7 @@ function loadSchedule(){const scheduleContainer=document.querySelector('.schedul
         </div>
         
         <div class="schedule-days" id="scheduleDays">
-            ${scheduleData.days.map(day => `<div class="schedule-day ${day === 'Senin' ? 'active' : ''}" data-day="${day}"><h3 class="day-title">Jadwal Pelajaran-${day}</h3><div class="schedule-classes" id="classes-${day}"><!-- Classes will be loaded here --></div></div>`).join('')}
+            ${scheduleData.days.map(day => `<div class="schedule-day ${day === 'Senin' ? 'active' : ''}" data-day="${day}"><h3 class="day-title">Jadwal Pelajaran - ${day}</h3><div class="schedule-classes" id="classes-${day}"><!-- Classes will be loaded here --></div></div>`).join('')}
         </div>
         
         <div class="schedule-summary">
