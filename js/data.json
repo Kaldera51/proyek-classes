@@ -10,19 +10,19 @@
     },
     {
       "id": 2,
-      "title": "Slot Kosong",
-      "description": "Catatan: Foto hanyalah sementara.",
-      "image": "images/gallery/merdeka.png",
-      "date": "17 Agustus 1945",
-      "location": "Jakarta"
+      "title": "Guci Forest",
+      "description": "-",
+      "image": "images/gallery/guciforest.png",
+      "date": "22 April 2026",
+      "location": "Guci Forest, Tegal"
     },
     {
       "id": 3,
       "title": "Slot Kosong",
       "description": "Catatan: Foto hanyalah sementara.",
-      "image": "images/gallery/haripahlawan.jpg",
-      "date": "10 November 1945",
-      "location": "Surabaya"
+      "image": "images/gallery/merdeka.png",
+      "date": "17 Agustus 1945",
+      "location": "Jakarta"
     }
   ],
   "teacher": {
@@ -44,102 +44,12 @@
     "instagram": "https://instagram.com/kh.fikri",
     "facebook": "https://facebook.com/muhammadkhoirul.fikrimaulana"
   },
-  "students": {
+"students": {
     "mainLeaders": [
       {
         "id": 1,
-        "name": "M. Aslam Musyadad",
-        "position": "Ketua Kelas",
-        "initials": "AM",
-        "nim": "015",
-        "birthDate": "23 Juni 2010",
-        "address": "Mijen, Kaliwungu, Kudus",
-        "hobbies": ["Game", "Researching", "Digital Exploration"],
-        "achievements": ["Peringkat 1 MTQ tingkat Kecamatan (2022)"],
-        "bio": "Suka mengeksplorasi hal-hal baru.",
-        "image": "images/members/aslam.jpg",
-        "instagram": "https://instagram.com/undang_mus_wae"
-      },
-      {
-        "id": 2,
-        "name": "Ferly Apri Trisnadi",
-        "position": "Wakil Ketua",
-        "initials": "FAT",
-        "nim": "008",
-        "birthDate": "04 April 2010",
-        "address": "Banget, Kaliwungu, Kudus",
-        "hobbies": ["Drawing", "Digital Exploration"],
-        "achievements": [],
-        "bio": "Think by yourself.",
-        "image": "images/members/default.jpg",
-        "instagram": "https://instagram.com/ferrr_l1"
-      },
-      {
-        "id": 3,
-        "name": "M. Rizqi Maulana",
-        "position": "Sekretaris",
-        "initials": "RM",
-        "nim": "024",
-        "birthDate": "01 Oktober 2009",
-        "address": "Jetak, Kaliwungu, Kudus",
-        "hobbies": ["Game","Researching", "Digital Exploration"],
-        "achievements": [],
-        "bio": "Still tryna figure ts out.",
-        "image": "images/members/default.jpg",
-        "instagram": "https://instagram.com/reizenoscura",
-        "linkedin": "https://linkedin.com/in/rizqinsight",
-        "steam": {
-          "url": "https://steamcommunity.com/profiles/76561199805584040",
-          "displayName": "iRyzqi"
-        }
-      },
-      {
-        "id": 4,
-        "name": "Aris Dwi Saputra",
-        "position": "Bendahara",
-        "initials": "ADS",
-        "nim": "005",
-        "birthDate": "09 Januari 2009",
-        "address": "Mijen, Kaliwungu, Kudus",
-        "hobbies": ["Game", "Crypto", "Fishing"],
-        "achievements": [],
-        "bio": "Saya islam.",
-        "image": "images/members/default.jpg",
-        "instagram": "https://instagram.com/ryzz_tull"
-      }
-    ],
-    "coordinators": [
-      {
-        "id": 5,
-        "name": "Muhammad Kholil",
-        "position": "Pendidikan",
-        "initials": "MK",
-        "nim": "021",
-        "birthDate": "29 September 2009",
-        "address": "Mijen, Kaliwungu, Kudus",
-        "hobbies": ["Volley Ball"],
-        "achievements": [],
-        "bio": "Rajin mengaji.",
-        "image": "images/members/kholil.jpg",
-        "instagram": "https://instagram.com/mk_lil_bro"
-      },
-      {
-        "id": 6,
-        "name": "Andika Fajar Zulianto",
-        "position": "Kebersihan",
-        "initials": "AFZ",
-        "nim": "004",
-        "birthDate": "24 Oktober 2009",
-        "address": "Mijen, Kaliwungu, Kudus",
-        "hobbies": ["Jogging", "Social Media"],
-        "achievements": [],
-        "bio": "Orang baik-baik, pendiam, dan murah hati.",
-        "image": "images/members/andika.jpg"
-      },
-      {
-        "id": 7,
         "name": "M. Yahya Arif",
-        "position": "Olahraga",
+        "position": "Ketua Kelas",
         "initials": "YA",
         "nim": "012",
         "birthDate": "23 Juni 2009",
@@ -154,25 +64,80 @@
         "instagram": "https://instagram.com/yahya_22_23"
       },
       {
-        "id": 8,
-        "name": "M. Yusuf Zakaria",
-        "position": "Keamanan",
-        "initials": "YZ",
-        "nim": "025",
-        "birthDate": "17 April 2009",
-        "address": "Kacu Banget, Kaliwungu, Kudus",
+        "id": 2,
+        "name": "Aris Dwi Saputra",
+        "position": "Wakil Ketua",
+        "initials": "ADS",
+        "nim": "005",
+        "birthDate": "09 Januari 2009",
+        "address": "Mijen, Kaliwungu, Kudus",
+        "hobbies": ["Game", "Crypto", "Fishing"],
+        "achievements": [],
+        "bio": "Saya islam.",
+        "image": "images/members/default.jpg",
+        "instagram": "https://instagram.com/ryzz_tull"
+      },
+      {
+        "id": 3,
+        "name": "M. Afka Immanul Haq",
+        "position": "Sekretaris",
+        "initials": "AIH",
+        "nim": "014",
+        "birthDate": "08 Mei 2009",
+        "address": "Sidorekso, Kaliwungu, Kudus",
+        "hobbies": ["Music", "Social Media"],
+        "achievements": [],
+        "bio": "Random Boy.",
+        "image": "images/members/afka.jpg",
+        "instagram": "https://instagram.com/afkaimnlhqqq_"
+      },
+      {
+        "id": 4,
+        "name": "Muhammad Kholil",
+        "position": "Bendahara",
+        "initials": "MK",
+        "nim": "021",
+        "birthDate": "29 September 2009",
+        "address": "Mijen, Kaliwungu, Kudus",
+        "hobbies": ["Volley Ball"],
+        "achievements": [],
+        "bio": "Rajin mengaji.",
+        "image": "images/members/kholil.jpg",
+        "instagram": "https://instagram.com/mk_lil_bro"
+      }
+    ],
+    "coordinators": [
+      {
+        "id": 5,
+        "name": "Sugi Rejo",
+        "position": "Pendidikan",
+        "initials": "SR",
+        "nim": "029",
+        "birthDate": "15 September 2009",
+        "address": "Blimbing Kidul, Kaliwungu, Kudus",
         "hobbies": [],
         "achievements": [],
         "bio": "Blm ada bio",
-        "image": "images/members/default.jpg",
-        "instagram": "https://instagram.com/tonyel01"
-      }
-    ],
-    "classMembers": [
+        "image": "images/members/default.jpg"
+      },
       {
-        "id": 9,
+        "id": 6,
+        "name": "M. Aslam Musyadad",
+        "position": "Pendidikan",
+        "initials": "AM",
+        "nim": "015",
+        "birthDate": "23 Juni 2010",
+        "address": "Mijen, Kaliwungu, Kudus",
+        "hobbies": ["Game", "Researching", "Digital Exploration"],
+        "achievements": ["Peringkat 1 MTQ tingkat Kecamatan (2022)"],
+        "bio": "Suka mengeksplorasi hal-hal baru.",
+        "image": "images/members/aslam.jpg",
+        "instagram": "https://instagram.com/undang_mus_wae"
+      },
+      {
+        "id": 7,
         "name": "Achmad Mahendra",
-        "position": "Anggota",
+        "position": "Kebersihan",
         "initials": "AM",
         "nim": "001",
         "birthDate": "30 Maret 2009",
@@ -184,9 +149,9 @@
         "instagram": "https://instagram.com/ndrbstr"
       },
       {
-        "id": 10,
+        "id": 8,
         "name": "Achmad Maulana Fahri",
-        "position": "Anggota",
+        "position": "Kebersihan",
         "initials": "AMF",
         "nim": "002",
         "birthDate": "27 Mei 2010",
@@ -197,7 +162,63 @@
         "image": "images/members/default.jpg"
       },
       {
+        "id": 9,
+        "name": "Ferly Apri Trisnadi",
+        "position": "Olahraga",
+        "initials": "FAT",
+        "nim": "008",
+        "birthDate": "04 April 2010",
+        "address": "Banget, Kaliwungu, Kudus",
+        "hobbies": ["Drawing", "Digital Exploration"],
+        "achievements": [],
+        "bio": "Think by yourself.",
+        "image": "images/members/default.jpg",
+        "instagram": "https://instagram.com/ferrr_l1"
+      },
+      {
+        "id": 10,
+        "name": "Farel Firmansyah",
+        "position": "Olahraga",
+        "initials": "FF",
+        "nim": "007",
+        "birthDate": "10 November 2008",
+        "address": "Kedungdowo, Kaliwungu, Kudus",
+        "hobbies": ["Game"],
+        "achievements": [],
+        "bio": "Mboh, ak dewe yo rrti.",
+        "image": "images/members/default.jpg"
+      },
+      {
         "id": 11,
+        "name": "Bagus Ahmad Dinijad",
+        "position": "Keamanan",
+        "initials": "BAD",
+        "nim": "006",
+        "birthDate": "Blm diisi",
+        "address": "Sidorekso, Kaliwungu, Kudus",
+        "hobbies": ["Motorcycle"],
+        "achievements": [],
+        "bio": "Blm ada bio",
+        "image": "images/members/default.jpg"
+      },
+      {
+        "id": 12,
+        "name": "Firdaus Galih Kurniawan",
+        "position": "Keamanan",
+        "initials": "FGK",
+        "nim": "009",
+        "birthDate": "Blm diisi",
+        "address": "Sidorekso, Kaliwungu, Kudus",
+        "hobbies": ["Motorcycle"],
+        "achievements": [],
+        "bio": "Blm ada bio",
+        "image": "images/members/default.jpg",
+        "instagram": "https://instagram.com/matchalatenyasatuu"
+      }
+    ],
+    "classMembers": [
+      {
+        "id": 13,
         "name": "Achmad Miftahul Ula",
         "position": "Anggota",
         "initials": "AMU",
@@ -210,44 +231,17 @@
         "image": "images/members/default.jpg"
       },
       {
-        "id": 12,
-        "name": "Bagus Ahmad Dinijad",
-        "position": "Anggota",
-        "initials": "BAD",
-        "nim": "006",
-        "birthDate": "Blm diisi",
-        "address": "Sidorekso, Kaliwungu, Kudus",
-        "hobbies": ["Motorcycle"],
-        "achievements": [],
-        "bio": "Blm ada bio",
-        "image": "images/members/default.jpg"
-      },
-      {
-        "id": 13,
-        "name": "Farel Firmansyah",
-        "position": "Anggota",
-        "initials": "FF",
-        "nim": "007",
-        "birthDate": "10 November 2008",
-        "address": "Kedungdowo, Kaliwungu, Kudus",
-        "hobbies": ["Game"],
-        "achievements": [],
-        "bio": "Mboh, ak dewe yo rrti.",
-        "image": "images/members/default.jpg"
-      },
-      {
         "id": 14,
-        "name": "Firdaus Galih Kurniawan",
+        "name": "Andika Fajar Zulianto",
         "position": "Anggota",
-        "initials": "FGK",
-        "nim": "009",
-        "birthDate": "Blm diisi",
-        "address": "Sidorekso, Kaliwungu, Kudus",
-        "hobbies": ["Motorcycle"],
+        "initials": "AFZ",
+        "nim": "004",
+        "birthDate": "24 Oktober 2009",
+        "address": "Mijen, Kaliwungu, Kudus",
+        "hobbies": ["Jogging", "Social Media"],
         "achievements": [],
-        "bio": "Blm ada bio",
-        "image": "images/members/default.jpg",
-        "instagram": "https://instagram.com/matchalatenyasatuu"
+        "bio": "Orang baik-baik, pendiam, dan murah hati.",
+        "image": "images/members/andika.jpg"
       },
       {
         "id": 15,
@@ -292,20 +286,6 @@
       },
       {
         "id": 18,
-        "name": "M. Afka Immanul Haq",
-        "position": "Anggota",
-        "initials": "AIH",
-        "nim": "014",
-        "birthDate": "08 Mei 2009",
-        "address": "Sidorekso, Kaliwungu, Kudus",
-        "hobbies": ["Music", "Social Media"],
-        "achievements": [],
-        "bio": "Random Boy.",
-        "image": "images/members/afka.jpg",
-        "instagram": "https://instagram.com/afkaimnlhqqq_"
-      },
-      {
-        "id": 19,
         "name": "M. Dhika Saputra",
         "position": "Anggota",
         "initials": "DS",
@@ -319,7 +299,7 @@
         "instagram": "https://instagram.com/mhdksptraa"
       },
       {
-        "id": 20,
+        "id": 19,
         "name": "Muhammad Doni",
         "position": "Anggota",
         "initials": "MD",
@@ -333,7 +313,7 @@
         "instagram": "https://instagram.com/doni_69__"
       },
       {
-        "id": 21,
+        "id": 20,
         "name": "M. Dwi Rizky Pradipta",
         "position": "Anggota",
         "initials": "DRP",
@@ -346,7 +326,7 @@
         "image": "images/members/default.jpg"
       },
       {
-        "id": 22,
+        "id": 21,
         "name": "M. Ilyas Sri Perdana",
         "position": "Anggota",
         "initials": "ISP",
@@ -359,7 +339,7 @@
         "image": "images/members/default.jpg"
       },
       {
-        "id": 23,
+        "id": 22,
         "name": "M. Kevin Muntakim",
         "position": "Anggota",
         "initials": "KM",
@@ -373,7 +353,7 @@
         "tiktok": "https://tiktok.com/@spnds_xauyy"
       },
       {
-        "id": 24,
+        "id": 23,
         "name": "Muhammad Masduqi",
         "position": "Anggota",
         "initials": "MM",
@@ -388,7 +368,7 @@
         "tiktok": "https://tiktok.com/@ukekk2"
       },
       {
-        "id": 25,
+        "id": 24,
         "name": "M. Maulana Akmal",
         "position": "Anggota",
         "initials": "MA",
@@ -403,7 +383,40 @@
         "tiktok": "https://tiktok.com/@__lana89"
       },
       {
+        "id": 25,
+        "name": "M. Rizqi Maulana",
+        "position": "Anggota",
+        "initials": "RM",
+        "nim": "024",
+        "birthDate": "01 Oktober 2009",
+        "address": "Jetak, Kaliwungu, Kudus",
+        "hobbies": ["Game","Researching", "Digital Exploration"],
+        "achievements": [],
+        "bio": "Still tryna figure ts out.",
+        "image": "images/members/default.jpg",
+        "instagram": "https://instagram.com/reizenoscura",
+        "linkedin": "https://linkedin.com/in/rizqinsight",
+        "steam": {
+          "url": "https://steamcommunity.com/profiles/76561199805584040",
+          "displayName": "iRyzqi"
+        }
+      },
+      {
         "id": 26,
+        "name": "M. Yusuf Zakaria",
+        "position": "Anggota",
+        "initials": "YZ",
+        "nim": "025",
+        "birthDate": "17 April 2009",
+        "address": "Kacu Banget, Kaliwungu, Kudus",
+        "hobbies": [],
+        "achievements": [],
+        "bio": "Blm ada bio",
+        "image": "images/members/default.jpg",
+        "instagram": "https://instagram.com/tonyel01"
+      },
+      {
+        "id": 27,
         "name": "Rifky Akbar Nur Ramadhani",
         "position": "Anggota",
         "initials": "RANR",
@@ -416,7 +429,7 @@
         "image": "images/members/default.jpg"
       },
       {
-        "id": 27,
+        "id": 28,
         "name": "Rizki Dhinar Widhianto",
         "position": "Anggota",
         "initials": "RDW",
@@ -429,7 +442,7 @@
         "image": "images/members/default.jpg"
       },
       {
-        "id": 28,
+        "id": 29,
         "name": "Seno Indrawan",
         "position": "Anggota",
         "initials": "SI",
@@ -440,113 +453,101 @@
         "achievements": [],
         "bio": "Blm ada bio",
         "image": "images/members/default.jpg"
-      },
-      {
-        "id": 29,
-        "name": "Sugi Rejo",
-        "position": "Anggota",
-        "initials": "SR",
-        "nim": "029",
-        "birthDate": "15 September 2009",
-        "address": "Blimbing Kidul, Kaliwungu, Kudus",
-        "hobbies": [],
-        "achievements": [],
-        "bio": "Blm ada bio",
-        "image": "images/members/default.jpg"
       }
     ]
   },
   "schedule": {
     "days": ["Sabtu", "Ahad", "Senin", "Selasa", "Rabu", "Kamis"],
     "colors": {
-      "Tadarus": "#8B4513",
-      "Sejarah Kebudayaan Islam": "#654321",
-      "Ke NU an": "#A0522D",
-      "PJOK": "#D2691E",
-      "Bahasa Inggris": "#CD853F",
-      "Akhlak Kitab": "#8B7355",
-      "Akidah Akhlak": "#C0A080",
-      "Ekonomi": "#228B22",
-      "Sosiologi": "#2E8B57",
-      "Tafsir": "#3CB371",
-      "Matematika": "#4169E1",
-      "Geografi": "#4682B4",
-      "Nahwu Shorof": "#5F9EA0",
-      "Bahasa Indonesia": "#6495ED",
-      "Vokasi": "#1E90FF",
-      "Pendidikan Pancasila": "#DC143C",
-      "Fiqih Kitab": "#A52A2A",
-      "Aswaja": "#B22222",
-      "Takhasus": "#CD5C5C",
-      "Qur'an Hadits": "#32CD32",
-      "Bahasa Arab": "#20B2AA",
-      "Fiqih": "#008080",
-      "Sejarah": "#6A5ACD"
+      "Tadarus": "#C8946E",
+      "Matematika": "#C8946E",
+      "PJOK": "#C8946E",
+      "Fiqih": "#C8946E",
+      "Bahasa Arab": "#C8946E",
+      "Ekonomi": "#C8946E",
+      "Akhlak Kitab": "#C8946E",
+      "Sosiologi": "#C8946E",
+      "Biologi": "#C8946E",
+      "Tafsir": "#C8946E",
+      "Nahwu Shorof": "#C8946E",
+      "Geografi": "#C8946E",
+      "Sejarah": "#C8946E",
+      "Bahasa Indonesia": "#C8946E",
+      "Sejarah Kebudayaan Islam": "#C8946E",
+      "Pendidikan Pancasila": "#C8946E",
+      "Ke NU an": "#C8946E",
+      "Akidah Akhlak": "#C8946E",
+      "Vokasi": "#C8946E",
+      "Bahasa Inggris": "#C8946E",
+      "Takhasus": "#C8946E",
+      "Aswaja": "#C8946E",
+      "Qur'an Hadits": "#C8946E",
+      "Fiqih Kitab": "#C8946E"
     },
     "schedule": {
       "Sabtu": [
         { "time": "07.00 - 07.15", "subject": "Tadarus", "teacher": "-" },
-        { "time": "07.15 - 07.55", "subject": "Sejarah Kebudayaan Islam", "teacher": "Umi Syafaah, S.Pd.I." },
-        { "time": "07.55 - 08.35", "subject": "Ke NU an", "teacher": "Umi Syafaah, S.Pd.I." },
+        { "time": "07.15 - 07.55", "subject": "Matematika", "teacher": "Ali Fathan, S.T." },
+        { "time": "07.55 - 08.35", "subject": "Matematika", "teacher": "Ali Fathan, S.T." },
         { "time": "08.35 - 09.15", "subject": "PJOK", "teacher": "Sunarto, S.E." },
         { "time": "09.15 - 09.55", "subject": "PJOK", "teacher": "Sunarto, S.E." },
-        { "time": "10.15 - 10.55", "subject": "Bahasa Inggris", "teacher": "Akhmadatus Samawat, S.Ag." },
-        { "time": "10.55 - 11.35", "subject": "Bahasa Inggris", "teacher": "Akhmadatus Samawat, S.Ag." },
-        { "time": "12.20 - 13.00", "subject": "Akhlak Kitab", "teacher": "Habib Tanwir, S.Pd." },
-        { "time": "13.00 - 13.40", "subject": "Akidah Akhlak", "teacher": "Ririn Sholikhah, S.Pd.I." }
+        { "time": "10.15 - 10.55", "subject": "Fiqih", "teacher": "Fauzan Akbar, S.H.I." },
+        { "time": "10.55 - 11.35", "subject": "Fiqih", "teacher": "Fauzan Akbar, S.H.I." },
+        { "time": "12.20 - 13.00", "subject": "Bahasa Arab", "teacher": "A. Fahmi Musthofa, S.Pd." },
+        { "time": "13.00 - 13.40", "subject": "Bahasa Arab", "teacher": "A. Fahmi Musthofa, S.Pd." }
       ],
       "Ahad": [
         { "time": "07.00 - 07.15", "subject": "Tadarus", "teacher": "-" },
         { "time": "07.15 - 07.55", "subject": "Ekonomi", "teacher": "H. Zamroni, M.E." },
         { "time": "07.55 - 08.35", "subject": "Ekonomi", "teacher": "H. Zamroni, M.E." },
-        { "time": "08.35 - 09.15", "subject": "Sosiologi", "teacher": "Moch. Anwar Bagus, S.H." },
-        { "time": "09.15 - 09.55", "subject": "Sosiologi", "teacher": "Moch. Anwar Bagus, S.H." },
+        { "time": "08.35 - 09.15", "subject": "Ekonomi", "teacher": "H. Zamroni, M.E." },
+        { "time": "09.15 - 09.55", "subject": "Akhlak Kitab", "teacher": "Habib Tanwir, S.Pd." },
         { "time": "10.15 - 10.55", "subject": "Sosiologi", "teacher": "Moch. Anwar Bagus, S.H." },
-        { "time": "10.55 - 11.35", "subject": "Tafsir", "teacher": "Fathul 'Alim, S.Pd." }
+        { "time": "10.55 - 11.35", "subject": "Biologi", "teacher": "Fitria Ningsih, S.Pd." }
       ],
       "Senin": [
         { "time": "07.00 - 07.15", "subject": "Tadarus", "teacher": "-" },
-        { "time": "07.15 - 07.55", "subject": "Matematika", "teacher": "Tiara Intani Dewi, S.Pd." },
-        { "time": "07.55 - 08.35", "subject": "Matematika", "teacher": "Tiara Intani Dewi, S.Pd." },
-        { "time": "08.35 - 09.15", "subject": "Matematika", "teacher": "Tiara Intani Dewi, S.Pd." },
+        { "time": "07.15 - 07.55", "subject": "Tafsir", "teacher": "Fathul 'Alim, S.Pd." },
+        { "time": "07.55 - 08.35", "subject": "Nahwu Shorof", "teacher": "M. Khoirul Fikri M., S.Ag." },
+        { "time": "08.35 - 09.15", "subject": "Nahwu Shorof", "teacher": "M. Khoirul Fikri M., S.Ag." },
         { "time": "09.15 - 09.55", "subject": "Geografi", "teacher": "Efy Rachmawati, S.Sos., M.Pd." },
         { "time": "10.15 - 10.55", "subject": "Geografi", "teacher": "Efy Rachmawati, S.Sos., M.Pd." },
         { "time": "10.55 - 11.35", "subject": "Geografi", "teacher": "Efy Rachmawati, S.Sos., M.Pd." },
-        { "time": "12.20 - 13.00", "subject": "Nahwu Shorof", "teacher": "M. Khoirul Fikri M., S.Ag." },
-        { "time": "13.00 - 13.40", "subject": "Nahwu Shorof", "teacher": "M. Khoirul Fikri M., S.Ag." }
+        { "time": "12.20 - 13.00", "subject": "Sejarah", "teacher": "Umi Syafaah, S.Pd.I." },
+        { "time": "13.00 - 13.40", "subject": "Sejarah", "teacher": "Umi Syafaah, S.Pd.I." }
       ],
       "Selasa": [
         { "time": "07.00 - 07.15", "subject": "Tadarus", "teacher": "-" },
-        { "time": "07.15 - 07.55", "subject": "Bahasa Indonesia", "teacher": "Habib Tanwir, S.Pd." },
-        { "time": "07.55 - 08.35", "subject": "Bahasa Indonesia", "teacher": "Habib Tanwir, S.Pd." },
-        { "time": "08.35 - 09.15", "subject": "Vokasi", "teacher": "Ali Zainudin." },
-        { "time": "09.15 - 09.55", "subject": "Vokasi", "teacher": "Ali Zainudin." },
-        { "time": "10.15 - 10.55", "subject": "Vokasi", "teacher": "Ali Zainudin." },
-        { "time": "10.55 - 11.35", "subject": "Vokasi", "teacher": "Ali Zainudin." },
-        { "time": "12.20 - 13.00", "subject": "Vokasi", "teacher": "Ali Zainudin." },
-        { "time": "13.00 - 13.40", "subject": "Vokasi", "teacher": "Ali Zainudin." }
+        { "time": "07.15 - 07.55", "subject": "Bahasa Indonesia", "teacher": "Silma Hikmatun Nafisah, S.Pd." },
+        { "time": "07.55 - 08.35", "subject": "Bahasa Indonesia", "teacher": "Silma Hikmatun Nafisah, S.Pd." },
+        { "time": "08.35 - 09.15", "subject": "Matematika", "teacher": "Ali Fathan, S.T." },
+        { "time": "09.15 - 09.55", "subject": "Sejarah Kebudayaan Islam", "teacher": "Umi Syafaah, S.Pd.I." },
+        { "time": "10.15 - 10.55", "subject": "Pendidikan Pancasila", "teacher": "H. Yusuf Ilhami, M.Pd.I." },
+        { "time": "10.55 - 11.35", "subject": "Pendidikan Pancasila", "teacher": "H. Yusuf Ilhami, M.Pd.I." },
+        { "time": "12.20 - 13.00", "subject": "Ke NU an", "teacher": "Moh. Ulin Nuha, M.Pd.I." },
+        { "time": "13.00 - 13.40", "subject": "Akidah Akhlak", "teacher": "Ririn Sholikhah, S.Pd.I." }
       ],
       "Rabu": [
         { "time": "07.00 - 07.15", "subject": "Tadarus", "teacher": "-" },
-        { "time": "07.15 - 07.55", "subject": "Pendidikan Pancasila", "teacher": "Moch. Anwar Bagus, S.H." },
-        { "time": "07.55 - 08.35", "subject": "Pendidikan Pancasila", "teacher": "Moch. Anwar Bagus, S.H." },
-        { "time": "08.35 - 09.15", "subject": "Fiqih Kitab", "teacher": "Fauzan Akbar, S.H.I." },
-        { "time": "09.15 - 09.55", "subject": "Ekonomi", "teacher": "H. Zamroni, M.E." },
-        { "time": "10.15 - 10.55", "subject": "Aswaja", "teacher": "K.H. Ahmad Radjab." },
-        { "time": "10.55 - 11.35", "subject": "Bahasa Indonesia", "teacher": "Habib Tanwir, S.Pd." },
-        { "time": "12.20 - 13.00", "subject": "Takhasus", "teacher": "Fathul 'Alim, S.Pd." },
-        { "time": "13.00 - 13.40", "subject": "Takhasus", "teacher": "Fathul 'Alim, S.Pd." }
+        { "time": "07.15 - 07.55", "subject": "Sosiologi", "teacher": "Moch. Anwar Bagus, S.H." },
+        { "time": "07.55 - 08.35", "subject": "Sosiologi", "teacher": "Moch. Anwar Bagus, S.H." },
+        { "time": "08.35 - 09.15", "subject": "Vokasi", "teacher": "Noor Hidayat." },
+        { "time": "09.15 - 09.55", "subject": "Vokasi", "teacher": "Noor Hidayat." },
+        { "time": "10.15 - 10.55", "subject": "Vokasi", "teacher": "Noor Hidayat." },
+        { "time": "10.55 - 11.35", "subject": "Vokasi", "teacher": "Noor Hidayat." },
+        { "time": "12.20 - 13.00", "subject": "Vokasi", "teacher": "Noor Hidayat." },
+        { "time": "13.00 - 13.40", "subject": "Vokasi", "teacher": "Noor Hidayat." }
       ],
       "Kamis": [
         { "time": "07.00 - 07.15", "subject": "Tadarus", "teacher": "-" },
-        { "time": "07.15 - 07.55", "subject": "Qur'an Hadits", "teacher": "H. Yusuf Ilhami, M.Pd.I." },
-        { "time": "07.55 - 08.35", "subject": "Qur'an Hadits", "teacher": "H. Yusuf Ilhami, M.Pd.I." },
-        { "time": "08.35 - 09.15", "subject": "Bahasa Arab", "teacher": "M. Fahmi Musthofa, S.Pd." },
-        { "time": "09.15 - 09.55", "subject": "Bahasa Arab", "teacher": "M. Fahmi Musthofa, S.Pd." },
-        { "time": "10.15 - 10.55", "subject": "Fiqih", "teacher": "Fauzan Akbar, S.H.I." },
-        { "time": "10.55 - 11.35", "subject": "Fiqih", "teacher": "Fauzan Akbar, S.H.I." },
-        { "time": "12.20 - 13.00", "subject": "Sejarah", "teacher": "Umi Syafaah, S.Pd.I." },
-        { "time": "13.00 - 13.40", "subject": "Sejarah", "teacher": "Umi Syafaah, S.Pd.I." }
+        { "time": "07.15 - 07.55", "subject": "Bahasa Inggris", "teacher": "Akhmadus Samawat, S.Ag." },
+        { "time": "07.55 - 08.35", "subject": "Bahasa Inggris", "teacher": "Akhmadus Samawat, S.Ag." },
+        { "time": "08.35 - 09.15", "subject": "Takhasus", "teacher": "Fathul 'Alim, S.Pd." },
+        { "time": "09.15 - 09.55", "subject": "Takhasus", "teacher": "Fathul 'Alim, S.Pd." },
+        { "time": "10.15 - 10.55", "subject": "Aswaja", "teacher": "K.H. Ahmad Radjab" },
+        { "time": "10.55 - 11.35", "subject": "Qur'an Hadits", "teacher": "H. Yusuf Ilhami, M.Pd.I." },
+        { "time": "12.20 - 13.00", "subject": "Qur'an Hadits", "teacher": "H. Yusuf Ilhami, M.Pd.I." },
+        { "time": "13.00 - 13.40", "subject": "Fiqih Kitab", "teacher": "Fauzan Akbar, S.H.I." }
       ]
     }
   }
